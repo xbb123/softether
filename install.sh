@@ -57,7 +57,7 @@ checkos
 
 if [ $OS = "ubuntu" ]; then
 			echo " Install  ubuntu wget ..."
-			apt-get -y install wget
+			apt-get -y install wget build-essential
 fi
 if [ $OS = "debian" ]; then
 apt-get update -y
